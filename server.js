@@ -22,7 +22,7 @@ const APIKEY = process.env.X_RAPIDAPI_KEY;
 
 
 process.stdin.setEncoding("utf8"); /* encoding */
-const portNumber = 5000;
+const portNumber = process.env.PORT || 5000;
 
 /* Set up "stop" command */
 process.stdin.on("readable", async () => {
