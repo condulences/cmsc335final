@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Best Quotes by Name</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+    <%- include('navbar') %>
+    <main>
+        <h1>Submit your Name</h1>
+    
+        <form action="/processBestQuotesByName" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="submit">
+        </form>
+	
+        <hr>
+    </main>
+</body>
+
+</html>

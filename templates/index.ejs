@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Quotial Media</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+    <%- include('navbar') %>
+    <main>
+        <h1>Random Quote Generator</h1>
+    
+        <div>
+            <p><%- quote %></p>
+            <p>-<%- author %></p>
+        </div>
+    
+        <form action="/processQuote" method="post">
+            <input type="hidden" name="quote" value="<%- quote %>">
+            <input type="hidden" name="author" value="<%- author %>">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <button type="submit" name="action" value="like">Like</button>
+        </form>
+    
+        <a href="/">Next Quote</a>
+    </main>
+
+</body>
+
+</html>

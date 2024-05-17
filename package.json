@@ -1,0 +1,20 @@
+{
+  "name": "335finalproject",
+  "version": "1.0.0",
+  "description": "**Submitted by:** Name (directory id: id)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.6.0",
+    "path": "^0.12.7"
+  }
+}

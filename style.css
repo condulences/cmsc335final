@@ -1,0 +1,62 @@
+:root{
+    --max: calc(100% - 1rem);
+}
+
+html {
+    height: var(--max);
+    width: var(--max);
+    padding: 0;
+    float: left;
+    height: 100%;
+}
+
+body {
+    background-image: url('./paper.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: calc(100% - 1rem)
+}
+
+.navbar {
+    border: solid cadetblue 0.25rem;
+    background-color: lightblue;
+    padding: 1rem;
+    padding-left: 2rem;
+    margin: -0.5rem;
+    margin-right: -1.5rem;
+}
+
+h1 {
+    margin: 2rem;
+    text-align: center;
+}
+
+div {
+    padding: 1rem;
+}
+
+form {
+    padding: 0.5rem;
+}
+
+a {
+    padding: 0.5rem;
+}
+
+#table {
+    text-align: center;
+}
+
+.short {
+    width: 20%;
+    color: cadetblue;
+}
+
+main {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0.5rem;
+    padding: 3rem;
+    background: white;
+    height: calc(100% - 9rem);
+}
