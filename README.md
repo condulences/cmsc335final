@@ -1,4 +1,4 @@
-**Submitted by:** Name (directory id: id) 
+**Submitted by:** Cindy Jia (directory id: cjia1) 
 
 **Group Members:** Trisha Anand (tanand), Cindy Jia (cjia1), Nathan Martin (nmarti12)
 
@@ -8,4 +8,4 @@
 
 **APIs:** Random Famous Quotes (https://rapidapi.com/andruxnet/api/random-famous-quotes)
 
-**Contact Email:** superterp@notreal.address.what
+**Contact Email:** cjia1@terpmail.umd.edu
